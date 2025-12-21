@@ -4,7 +4,7 @@ name: 🔴 Economic Circuit Breaker
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 1時間ごとにコスト監視
+  #  -     -   ＃ : 'c0 '  # 1時間ごとにコスト監視
   workflow_dispatch:
     inputs:
       force_check:
